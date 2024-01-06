@@ -1,1 +1,1 @@
-# Digital-Electronic-Systems
+# Digital, Electronic Systems
