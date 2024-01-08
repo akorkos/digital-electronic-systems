@@ -1,10 +1,10 @@
-COMPILER = ghdl 
-COMPILER_VERSION = --std=08
-FLAGS = --ieee=synopsys
-VHDL_FILES = $(wildcard *.vhd) 
-WORKDIR = debug
-TB = $(basename $(notdir $(wildcard tb_*.vhd)))
-RUN_FLAGS = --vcd=$(TB).vcd
+COMPILER = 			ghdl 
+COMPILER_VERSION = 	--std=08
+FLAGS = 			--ieee=synopsys
+VHDL_FILES = 		$(wildcard *.vhd) 
+WORKDIR = 			debug
+TB = 				$(basename $(notdir $(wildcard tb_*.vhd)))
+RUN_FLAGS = 		--vcd=$(TB).vcd
 
 .PHONY: all
 all: analyze run clean 

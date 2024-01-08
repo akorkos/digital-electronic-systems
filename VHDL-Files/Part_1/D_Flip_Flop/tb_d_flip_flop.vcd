@@ -1,0 +1,68 @@
+$date
+  Sat Jan  6 21:17:51 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module env $end
+$upscope $end
+$scope module tb_d_flip_flop $end
+$var reg 1 ! d_tb_in $end
+$var reg 1 " clk_tb $end
+$var reg 1 # rst_n_tb $end
+$var reg 1 $ preset_tb $end
+$var reg 1 % q_tb_out $end
+$scope module dut $end
+$var reg 1 & clk $end
+$var reg 1 ' rst_n $end
+$var reg 1 ( preset $end
+$var reg 1 ) d_in $end
+$var reg 1 * q_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+#25000000
+1"
+1&
+#30000000
+1#
+1$
+1'
+1(
+#45000000
+#50000000
+0"
+0&
+#60000000
+0$
+1%
+0(
+1*
+#70000000
+1$
+1(
+#75000000
+1"
+0%
+1&
+0*
