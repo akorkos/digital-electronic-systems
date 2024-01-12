@@ -40,12 +40,19 @@
 \usepackage{numprint}
 \npunitseparator{\.}
 
+\usepackage[nameinlink]{cleveref}
+
+\usepackage[title]{appendix}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Font Setup                                                           %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \setmainfont{Open Sans}
-\setmonofont{JetBrains Mono}
+\setmonofont{JetBrains Mono}[
+    Contextuals = Alternate,
+    Ligatures = TeX,
+]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Pagestyle options                                                    %
@@ -125,6 +132,8 @@
     numbersep=2pt, 
     style=manni,
 }
+
+
 
 \newenvironment{longlisting}{\captionsetup{type=listing}}{}
 
