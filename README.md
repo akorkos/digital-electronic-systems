@@ -14,3 +14,11 @@ focuses on the design of combinational circuits, while the second part focuses
 on the design of sequential circuits. All the circuits designed and 
 implemented are fundamental circuits, that are used in the design of more 
 complex circuits.
+
+
+## Documentation
+
+The implementations, simulation results and the compilation instructions are
+shown in the 
+[wording](https://github.com/akorkos/Digital-Electronic-Systems/blob/main/wording.pdf)
+file.

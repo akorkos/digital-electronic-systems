@@ -40,12 +40,11 @@
 *.synctex.gz(busy)
 *.pdfsync
 
-build/
+TeX-Files/*
+Logisim-Files/*
+!TeX-Files/build/wording.pdf
 
 .hdl-prj.json
-
-TeX-Files/
-Logisim-Files/
 
 ## Build tool directories for auxiliary files
 # latexrun
