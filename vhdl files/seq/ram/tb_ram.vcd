@@ -1,0 +1,181 @@
+$date
+  Mon Jan 15 03:34:07 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module env $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module tb_ram $end
+$var reg 1 ! clk $end
+$var reg 1 " enable $end
+$var reg 1 # rw $end
+$var reg 4 $ address[3:0] $end
+$var reg 4 % data[3:0] $end
+$scope module ram0 $end
+$var reg 1 & clk $end
+$var reg 1 ' enable $end
+$var reg 1 ( rw $end
+$var reg 4 ) address[3:0] $end
+$var reg 4 * data[3:0] $end
+$comment tmp_ram is not handled $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+1!
+U"
+U#
+bUUUU $
+bUUUU %
+1&
+U'
+U(
+bUUUU )
+bUUUU *
+#250000
+0!
+0&
+#500000
+1!
+1&
+#750000
+0!
+0&
+#1000000
+1!
+1"
+1&
+1'
+#1250000
+0!
+0&
+#1500000
+1!
+1&
+#1750000
+0!
+0&
+#2000000
+1!
+1#
+b0011 $
+b1001 %
+1&
+1(
+b0011 )
+b1001 *
+#2250000
+0!
+0&
+#2500000
+1!
+1&
+#2750000
+0!
+0&
+#3000000
+1!
+0#
+b0001 $
+bUUUU %
+1&
+0(
+b0001 )
+bUUUU *
+#3250000
+0!
+0&
+#3500000
+1!
+1&
+#3750000
+0!
+0&
+#4000000
+1!
+b0011 $
+b1001 %
+1&
+b0011 )
+b1001 *
+#4250000
+0!
+0&
+#4500000
+1!
+1&
+#4750000
+0!
+0&
+#5000000
+1!
+1&
+#5250000
+0!
+0&
+#5500000
+1!
+1&
+#5750000
+0!
+0&
+#6000000
+1!
+1&
+#6250000
+0!
+0&
+#6500000
+1!
+1&
+#6750000
+0!
+0&
+#7000000
+1!
+1&
+#7250000
+0!
+0&
+#7500000
+1!
+1&
+#7750000
+0!
+0&
+#8000000
+1!
+1&
+#8250000
+0!
+0&
+#8500000
+1!
+1&
+#8750000
+0!
+0&
+#9000000
+1!
+1&
+#9250000
+0!
+0&
+#9500000
+1!
+1&
+#9750000
+0!
+0&

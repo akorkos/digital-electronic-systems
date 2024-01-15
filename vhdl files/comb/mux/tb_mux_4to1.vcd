@@ -1,0 +1,121 @@
+$date
+  Mon Jan 15 03:16:10 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module std_logic_textio $end
+$upscope $end
+$scope module tb_mux_4to1 $end
+$var reg 4 ! acbd_tb_in[3:0] $end
+$var reg 2 " sel_tb_in[1:0] $end
+$var reg 1 # q_tb_in $end
+$scope module dut $end
+$var reg 4 $ abcd_in[3:0] $end
+$var reg 2 % sel_in[1:0] $end
+$var reg 1 & q_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b1000 !
+b00 "
+0#
+b1000 $
+b00 %
+0&
+#50000000
+b01 "
+b01 %
+#100000000
+b10 "
+b10 %
+#150000000
+b11 "
+1#
+b11 %
+1&
+#200000000
+b1101 !
+b00 "
+b1101 $
+b00 %
+#250000000
+b01 "
+0#
+b01 %
+0&
+#300000000
+b10 "
+1#
+b10 %
+1&
+#350000000
+b11 "
+b11 %
+#400000000
+b0111 !
+b00 "
+b0111 $
+b00 %
+#450000000
+b01 "
+b01 %
+#500000000
+b10 "
+b10 %
+#550000000
+b11 "
+0#
+b11 %
+0&
+#600000000
+b1010 !
+b00 "
+b1010 $
+b00 %
+#650000000
+b01 "
+1#
+b01 %
+1&
+#700000000
+b10 "
+0#
+b10 %
+0&
+#750000000
+b11 "
+1#
+b11 %
+1&
+#800000000
+b0101 !
+b00 "
+b0101 $
+b00 %
+#850000000
+b01 "
+0#
+b01 %
+0&
+#900000000
+b10 "
+1#
+b10 %
+1&
+#950000000
+b11 "
+0#
+b11 %
+0&
+#1000000000

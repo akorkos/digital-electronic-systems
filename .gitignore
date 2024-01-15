@@ -40,6 +40,13 @@
 *.synctex.gz(busy)
 *.pdfsync
 
+build/
+
+.hdl-prj.json
+
+TeX-Files/
+Logisim-Files/
+
 ## Build tool directories for auxiliary files
 # latexrun
 latex.out/
