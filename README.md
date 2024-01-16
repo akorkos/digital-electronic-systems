@@ -15,6 +15,34 @@ on the design of sequential circuits. All the circuits designed and
 implemented are fundamental circuits, that are used in the design of more 
 complex circuits.
 
+## Requirements
+
+* Make
+* GHDL
+* GTKWave
+
+## Compile & Run
+
+1. Analyze the source file(s): 
+
+    ``` ghdl -a –std=08 –ieee=synopsys <design>.vhd ```
+
+2. Analyze the testbench file(s):
+
+    ``` ghdl -a –std=08 –ieee=synopsys tb_<design>.vhd ```
+
+3. Generate executable file:
+
+    ``` ghdl -e –std=08 –ieee=synopsys tb_<design> ```
+
+4. Run the simulation:
+
+    ``` ghdl -r –std=08 –ieee=synopsys tb_<design>.vhd –vcd=tb_<design>.vcd```
+
+5. View the waveform:
+
+    ``` gtkwave tb_<design>.vcd```
+
 
 ## Documentation
 
