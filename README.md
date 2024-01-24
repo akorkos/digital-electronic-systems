@@ -25,23 +25,33 @@ complex circuits.
 
 1. Analyze the source file(s): 
 
-    ``` ghdl -a –std=08 –ieee=synopsys <design>.vhd ```
+```
+ghdl -a –std=08 –ieee=synopsys <design>.vhd
+```
 
-2. Analyze the testbench file(s):
+3. Analyze the testbench file(s):
 
-    ``` ghdl -a –std=08 –ieee=synopsys tb_<design>.vhd ```
+```
+ghdl -a –std=08 –ieee=synopsys tb_<design>.vhd
+```
 
-3. Generate executable file:
+5. Generate executable file:
 
-    ``` ghdl -e –std=08 –ieee=synopsys tb_<design> ```
+```
+ghdl -e –std=08 –ieee=synopsys tb_<design>
+```
 
-4. Run the simulation:
+6. Run the simulation:
 
-    ``` ghdl -r –std=08 –ieee=synopsys tb_<design>.vhd –vcd=tb_<design>.vcd```
+```
+ghdl -r –std=08 –ieee=synopsys tb_<design>.vhd –vcd=tb_<design>.vcd
+```
 
-5. View the waveform:
+7. View the waveform:
 
-    ``` gtkwave tb_<design>.vcd```
+```
+gtkwave tb_<design>.vcd
+```
 
 
 ## Documentation
