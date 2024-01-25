@@ -1,0 +1,48 @@
+$date
+  Mon Jan 15 03:24:03 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module env $end
+$upscope $end
+$scope module tb_comparator $end
+$var reg 4 ! x_tb_in[3:0] $end
+$var reg 4 " y_tb_in[3:0] $end
+$var reg 1 # is_eq_tb $end
+$scope module dut $end
+$var reg 4 $ x_in[3:0] $end
+$var reg 4 % y_in[3:0] $end
+$var reg 1 & is_eq $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+b0000 "
+1#
+b0000 $
+b0000 %
+1&
+#1000000
+b0001 !
+0#
+b0001 $
+0&
+#2000000
+b0110 !
+b0110 "
+1#
+b0110 $
+b0110 %
+1&
+#3000000
