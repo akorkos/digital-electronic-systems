@@ -15,6 +15,22 @@ on the design of sequential circuits. All the circuits designed and
 implemented are fundamental circuits, that are used in the design of more 
 complex circuits.
 
+## Contents
+
+### Sequential (seq) circuits:
+* D flip-flop
+* JK flip-flop
+* RAM
+* Sequential multiplier
+
+### Combinatorial (comb) circuits:
+* LED counter
+* Multiplexer
+* Full adder
+* Comparator
+* Encoder
+ 
+
 ## Requirements
 
 * Make
@@ -52,11 +68,3 @@ ghdl -r –std=08 –ieee=synopsys tb_<design>.vhd –vcd=tb_<design>.vcd
 ```
 gtkwave tb_<design>.vcd
 ```
-
-
-## Documentation
-
-The implementations, simulation results and the compilation instructions are
-shown in the 
-[wording](https://github.com/akorkos/Digital-Electronic-Systems/blob/main/wording.pdf)
-file.
