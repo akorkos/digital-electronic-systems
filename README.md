@@ -10,10 +10,16 @@ Digital design of logic circuits is a fundamental part of computer engineering.
 The design of logic circuits is done using Hardware Description Languages (HDLs).
 The most common HDLs are Verilog and VHDL. This project focuses on the design of
 logic circuits using VHDL. The project is divided into two parts. The first part
-focuses on the design of combinational circuits, while the second part focuses 
-on the design of sequential circuits. All the circuits designed and 
-implemented are fundamental circuits, that are used in the design of more 
+focuses on the design of combinational (comb) circuits, while the second part 
+focuses on the design of sequential (seq) circuits. All the circuits designed
+and implemented are fundamental circuits, that are used in the design of more 
 complex circuits.
+
+Besides the design of the circuits, the project also focuses on the simulation 
+and validation of the circuits. All the above are done using free and open
+source software. The software used for the design and simulation of the circuits
+are GHDL and GTKWave. The VHDL codes for the circuits are following the version 
+2008 of IEEE standard 1076.  
 
 ## Contents
 
@@ -29,7 +35,7 @@ complex circuits.
 * Full adder
 * Comparator
 * Encoder
- 
+
 
 ## Requirements
 
