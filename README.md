@@ -1,6 +1,6 @@
-# Digital, Electronic Systems
+# Digital Electronic, Systems
 
-The material was developed during the course [Digital, Electronic Systems
+The material was developed during the course [Digital Electronic, Systems
 [NNA-07-08]](https://elearning.auth.gr/course/view.php?id=8109) (2023/24) of the
 Department of Computer Science at Aristotle University of Thessaloniki.<br/> 
 
@@ -38,7 +38,6 @@ are GHDL and GTKWave. The VHDL codes for the circuits are following the version
 
 
 ## Requirements
-
 * Make
 * GHDL
 * GTKWave
